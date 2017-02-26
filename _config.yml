@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: XinHe'Bolg
+subtitle: Huster and USTCer
 description:
-author: John Doe
+author: XinHe
 language:
 timezone:
 
@@ -18,6 +18,7 @@ permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
+about_dir: about
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -63,8 +64,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+theme: jacman
+stylus:
+  compress: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
